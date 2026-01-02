@@ -78,7 +78,16 @@
   docker tag app-image:latest &lt;ECR_URI&gt;:latest docker push &lt;ECR_URI&gt;:latest 
 </pre>
 
-<h2>Step 10: Create ECS Cluster</h2> <p> • Go to ECS → Clusters → Create Cluster • Launch type: EC2 • Cluster name: app-cluster </p> <p>Wait for provisioning to complete.</p>
+<h2>Step 10: Create ECS Cluster</h2> 
+<p> 
+  
+    • Go to ECS → Clusters → Create Cluster 
+    • Cluster name: app-cluster 
+    • Select a method of obtaining compute capacity of infrastructure advanced 
+    • Container Insights with enhanced observability in Monitoring
+
+</p> 
+<p>Wait for provisioning to complete.</p>
 
 <h2>Step 11: Create ECS Task Definition</h2>
 <p> 
